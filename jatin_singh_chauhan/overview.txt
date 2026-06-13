@@ -1,0 +1,11 @@
+OVERVIEW
+
+Mossback Games is a small independent studio run by two developers who build short, casual browser games on the side. Over the last couple of years our games have ended up scattered across different file hosts and game-jam pages, so players have no single place to find them and we have no real home for the brand. We want to fix that with one website.
+
+This project is to design and build Mossback Arcade, a free online gaming website where visitors can browse our catalog, open any game, and start playing right away in the browser with nothing to download or install. The website is the product. It needs a home page with a game of the day, popular and new rows, and a recently played row; a games library where people can search and filter by category; a play page that runs the selected game; a leaderboard page; a profile page; and a short about page.
+
+The developer builds five games for the launch, spread across four categories: Arcade, Puzzle, Board, and Action. Five is the launch set, not a cap. The catalog is set up so that we can keep adding more games from our own side later by editing one data file and dropping in one game file, with no other page changes.
+
+There is no login and no sign up. Everything the visitor does is stored in their own browser: high scores, favorite games, the chosen arcade skin, the sound setting, a local nickname and avatar, earned tokens, and unlocked badges. There is no server and no database.
+
+The look is the part that sets it apart. We want a retro pixel arcade style over a dark textured background, not a flat color, with buttons and cards that carry a white or colored neon glow and titles set in a pixel font. Instead of a single light and dark switch the site offers three named skins, Nebula, Synthwave, and Matrix, each with its own neon palette and a faint animated particle layer behind the content. The header carries a skin dropdown, a sound toggle, a token counter, and the visitor avatar and name. Visitors earn tokens for playing and beating their best scores, pick a character avatar and a nickname, and unlock a small set of badges as they go. We want a site that is fast, works well on a phone and on a desktop, and feels like a finished arcade rather than a demo.

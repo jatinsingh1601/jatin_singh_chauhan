@@ -1,0 +1,54 @@
+RUBRICS - MOSSBACK ARCADE (ONLINE GAMING WEBSITE)
+
+1. The website source is delivered in a single folder named mossback-arcade.
+2. The website includes six pages named index.html, games.html, play.html, scores.html, profile.html, and about.html.
+3. Opening index.html in a browser loads the home page with no errors in the browser console.
+4. The website runs as static files with no server side code or database.
+5. The website uses no front end framework, UI framework, or game engine.
+6. The website stores all visitor data in the browser using localStorage.
+7. The page background uses a dark texture rather than a flat color.
+8. The logo uses a pixel style font.
+9. The game titles use a pixel style font.
+10. Every page shows the Mossback Arcade wordmark in the header.
+11. The header navigation has five pill buttons that each show an icon and a label.
+12. The header skin switcher offers three named skins called Nebula, Synthwave, and Matrix.
+13. The chosen skin is still applied after the page is reloaded.
+14. Every page shows an animated particle layer behind the content.
+15. The header sound toggle turns game sound on or off.
+16. The header token counter increases after a game ends.
+17. The home page featured carousel shows a Game of the Day.
+18. The home page featured carousel shows a Play button.
+19. The home page featured carousel shows dot indicators.
+20. The home page shows a Recently Played row built from the games the visitor has opened.
+21. Each Browse by Category button shows the category name.
+22. Each Browse by Category button shows the number of games in it.
+23. The game cards are generated from the data/games.json catalog file.
+24. The README explains how to add a game with one catalog entry and one game file.
+25. The games library page shows a card for every game in the catalog.
+26. The library search box filters the cards by title as the visitor types.
+27. The library category buttons filter the cards to a single category.
+28. The Favorites filter shows only the games the visitor has marked as favorite.
+29. A favorite mark on a game is still set after the page is reloaded.
+30. The play page loads the game named in the URL query string such as play.html?game=snake.
+31. The play page shows a message with a link back to the library when the game value is unknown.
+32. The play page shows a how to play note that lists the controls for the game.
+33. The developer delivers five playable games in the catalog.
+34. Each game runs inside the play area on the play page.
+35. Each game increases a score or shows a result as it is played.
+36. Each game shows a game over or win message when it ends.
+37. Each game has a restart control that starts a new game after it ends.
+38. Each game saves its best result to localStorage.
+39. The Leaderboard page lists every game in the catalog with its best saved result.
+40. The Profile page saves a nickname that the visitor enters.
+41. The Profile page lets the visitor pick a character avatar from a preset set.
+42. The Profile page marks which of the six badges are unlocked.
+43. The layout is usable at a mobile width of 320 px.
+44. The layout is usable at a tablet width of 768 px.
+45. The layout is usable at a desktop width of 1024 px.
+46. Every external asset is listed in the README with its source.
+47. Every external asset is listed in the README with its license.
+48. The animated background stops and displays a non-animated version when the browser reports a reduced-motion preference.
+49. The category counts shown in the Browse by Category section match the number of games assigned to each category in data/games.json.
+50. The header navigation collapses into a menu button on screens narrower than 768 px.
+51. The collapsed menu button opens the navigation links.
+52. The header displays the currently selected skin name in the skin switcher control on every page.

@@ -1,0 +1,68 @@
+SCOPE OF WORK
+
+Project: Mossback Arcade, a responsive online gaming website
+Client: Mossback Games
+Category: Web Development
+Stack: HTML5, CSS3, and vanilla JavaScript only. No frameworks, no game engines, and no backend.
+
+PAGES TO BUILD (6)
+
+1. Home (index.html)
+   Shared header with the Mossback Arcade wordmark, navigation, a skin switcher, a sound toggle, a token counter, and the local nickname and avatar. A Game of the Day banner. A Recently Played row. A Popular grid. A New grid. A Browse by Category row. A footer.
+
+2. Games library (games.html)
+   A grid of every game in the catalog, a search box that filters cards by title as the visitor types, category filter buttons for All, Arcade, Puzzle, Board, and Action, and a Favorites filter.
+
+3. Play (play.html)
+   Loads one game from a value in the URL query string, for example play.html?game=snake. Shows the game title, the controls, the running game, a high score panel, and a favorite toggle. Opening a game adds it to Recently Played.
+
+4. Leaderboard (scores.html)
+   Lists each game with the best score saved on the device, shown with its unit, and a message for any game with no score yet.
+
+5. Profile (profile.html)
+   Set a local nickname, pick an avatar from a preset set, view the token balance, view the six badges, view favorite games, and reset saved data.
+
+6. About (about.html)
+   A short description of Mossback Games and a contact line.
+
+GAMES TO BUILD FOR LAUNCH (5, original code, classic styles of play)
+
+Five is the launch set that the developer builds. It is not a cap. The studio adds more games from its own side later through the same catalog.
+
+Arcade: Snake
+Puzzle: Memory Match, Tile Merge
+Board: Grid Lockout (three by three versus the computer)
+Action: Reaction Rush
+
+Each game runs inside the play page, shows a score or result, has a game over or win state, has a restart control, and saves its best result to the browser. None of the games copy the art, logo, sound, or name of any branded product.
+
+UNIQUE ELEMENTS
+
+- A retro pixel arcade style over a dark textured background, with buttons and cards that carry a white or colored neon glow and titles set in a pixel font.
+- Three named arcade skins, Nebula, Synthwave, and Matrix, each with its own neon palette, instead of a single light and dark switch.
+- A faint animated particle layer behind the content that matches the active skin and stops when the browser asks for reduced motion.
+- A header with icon nav pills, a skin dropdown, a sound toggle, a coin token counter, and the visitor avatar and name.
+- A featured carousel on the home page, and Browse by Category buttons that show the number of games in each category.
+- A local player profile with a nickname and a preset character avatar, with no login and no sign up.
+- Tokens earned for finishing games and for beating a saved best.
+- Six badges that unlock from local play.
+
+SITE FEATURES
+
+- Game cards on the home and library pages are generated from one catalog file (data/games.json), not hard coded on each page.
+- The catalog is extensible: a new game is added with one catalog entry and one game file, with no other page changes.
+- Live search and category filtering on the library page that work together.
+- A favorite toggle on each game, saved in the browser and shown under the Favorites filter.
+- Per game high scores saved with localStorage and shown on the play page and the Leaderboard.
+- A skin choice, a sound setting, a nickname, an avatar, tokens, badges, favorites, and recently played list, all saved in the browser.
+- A responsive layout for phone, tablet, and desktop widths.
+
+DELIVERY
+
+- All website source files, the data/games.json catalog, and a README that lists the games, the controls, the steps to add a game, and every asset with its source and license.
+- Only royalty free, openly licensed assets. No paid or copyrighted assets of any kind.
+- At least three screenshots of the finished site.
+
+NOT INCLUDED
+
+Any backend or server code, database, user accounts or login, online or networked multiplayer, a global online leaderboard, advertising, analytics, payments or in app purchases, app store packaging, content management system, or any framework or game engine.
